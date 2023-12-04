@@ -1,0 +1,105 @@
+---
+title: "Tatto Studio XXX"
+format: PrettyPDF-pdf
+execute:
+  echo: false
+  message: false
+  warning: false
+crossref:
+  fig-title: "Escanea me"
+  fig-labels: "roman i"
+  title-delim: " "
+---
+
+# Confirmación de Cita
+
+Vale, confirmamos entonces :) Estos son los detalles para tu cita:
+
+-   **Fecha y Hora**: Te esperamos a las 12:00 pm.
+
+```{r}
+#| column: margin
+#| fig-cap: "Guarda la fecha!"
+
+# read in an image and display it
+library(magick)
+img <- image_read("images/qrtest.png")
+
+# Reduce width to 50% of original
+img <- image_scale(img, "50%")
+
+img
+```
+
+-   **Preparativos**: Por favor, asegúrate de tener la zona donde será tu tatuaje rasurada (no importa si el vello es muy fino) y no olvides llevar una identificación oficial.
+
+-   **Acompañante**: Solo podrás llevar un acompañante (no niños, no bebidas alcohólicas).
+
+**Dirección**: Boulevard Cuautitlán Izcalli #164, Villas de la Hacienda, Atizapán de Zaragoza, frente al Tec. de Monterrey.
+
+[Ver mapa de ubicación](https://goo.gl/maps/LuPQoqpg8Px)
+
+[![](images/Screenshot%20from%202023-12-03%2017-03-21.png){fig-align="center" width="300"}](https://goo.gl/maps/LuPQoqpg8Px)
+
+**Condiciones:**
+
+-   **Tolerancia máxima de 15 minutos**: Después de ese tiempo, se cancelará la cita y se perderá el depósito.
+
+-   **Estado inconveniente**: Si llegas en estado inconveniente, nos abstendremos de realizarte el trabajo.
+
+**Pago**:
+
+-   Por el momento, el pago únicamente se acepta por medio de transferencia bancaria.
+
+-   **Concepto de Pago**: Recuerda colocar SOLO tu nombre en el concepto para llevar un buen control.
+
+Por favor, confirma tu asistencia.
+
+{{< pagebreak >}}
+
+# Términos y Condiciones
+
+## Restricciones
+
+-   **Acceso sin acompañantes**: No se permite el acceso a acompañantes bajo ninguna circunstancia.
+-   **Enfermedades virales**: No se atenderá a clientes que presenten síntomas de enfermedades virales. Se recomienda reprogramar la cita con receta médica vigente en caso de enfermedad.
+-   **Estado inconveniente**: No se brindará servicio a personas bajo los efectos del alcohol, drogas o anticoagulantes.
+-   **Acceso a menores**: Por razones de bioseguridad y comodidad, no se permite el acceso a menores.
+
+## Restricción de Edad
+
+Se brindará atención y servicio únicamente a personas mayores de 18 años que cuenten con identificación oficial vigente. La identificación debe ser presentada antes de agendar una cita y el día de la misma.
+
+## Reprogramación de Cita
+
+En caso de desear posponer la cita, se debe informar con un mínimo de 5 días de anticipación. De lo contrario, se perderá la sesión y el anticipo no será reembolsado. Se permitirá reagendar una sola vez en los 30 días posteriores a la fecha original de la cita programada.
+
+## Día de la Cita
+
+-   **Puntualidad**: Se cuenta con un margen de tolerancia de 20 minutos. En caso de llegar después del tiempo acordado, se perderá la cita sin derecho a reembolso.
+-   **Condiciones físicas**: Asiste con tu piel en óptimas condiciones, evitando exposición al sol, playas, y piscinas al menos 15 días antes de la sesión.
+-   **Vestimenta adecuada**: Asiste con ropa cómoda y apropiada según la zona a tatuar.
+-   **Aparatos de audio**: Prepara tus audífonos para disfrutar de tu música preferida durante la sesión.
+-   **Estacionamiento**: El lugar no cuenta con estacionamiento, considera esto al movilizarte en automóvil.
+
+## Nota
+
+Comunica cualquier antecedente médico que puedas tener, asegurando la veracidad de la información. Algunos antecedentes a considerar incluyen enfermedades crónicas (diabetes, hipertensión, cáncer, VIH, ETS, etc.), epilepsia, tratamiento médico actual, embarazo o lactancia, y alergias al látex.
+
+De no aceptar los términos y condiciones descritos, el artista se abstiene de brindar los servicios ofrecidos.
+
+{{< pagebreak >}}
+
+# Datos Bancarios
+
+Te comparto la información bancaria para depósito o transferencia.
+
+- **Banco**: Santander
+- **Beneficiario**: Alcare Xanadu
+- **CLABE**: 014180655096263743
+- **Número de cuenta**: 65-5096-2637-4
+- **Concepto**: Tu nombre 
+
+## CODI
+
+QR CODI
